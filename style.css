@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#328572;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+.navi li{
+    display: inline;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 5px;
+    font-size: 20px;
+    text-transform:capitalize ;
+}
+.navi li:hover{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:chocolate;
+}
+
+.home{
+    display: grid;
+    justify-content: center ;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.home p{
+    font-size: 30px;
+    color: #030d19;
+    margin: 10px;
+    padding: 60px;
+}
+.nav{
+    margin: 5px ;
+    padding: 10px;
+}
+.nav img{
+    height: 100px;
+}
+
+.image{
+    border-radius: 100%;
+    overflow:hidden;
+    background-color:#030d19;
+
+}
+.image img{
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    display: flex
+
+}
+           /* about */
+h2{
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+   
+}
+.left{
+    display: flex;
+    margin: 5px;
+}
+.left img{
+    background-color:rgb(150, 146, 143);
+    border-radius: 50%;
+}
+h3{
+    font-size: 24px;
+}
+.right{
+    margin: 100px;
+}
+.right p{
+    font-size: 18px;
+    /* color:rgb(221, 229, 238); */
+    color: #030d19;
+    font-family:monospace;
+}
+.trio{
+    color:rgb(194, 39, 11);
+    font-weight: bold;
+}
+          /* skills */
+
+.haki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px;
+    background-color: rgb(216, 129, 98);
+    color: white;
+}
+.haki li{
+    display: flex;
+    color: #030d19;
+    font-size: 18px;
+    text-transform:capitalize ;
+    font-family: monospace;
+    color: white;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.haki p{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(165, 236, 0);
+}
+
+.kuma{
+    display: flex;
+    margin: 2px;
+}
+.kuma img{
+    height: 500px;
+    aspect-ratio: 3/4;
+    margin: 5px;
+    border: 1px solid #030d19;
+}
+.kuma p{
+    margin: 5px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+}
+.connect p{
+    font-size: large
+}
+.connect img{
+    height: 200px;
+    border: 1px solid;
+    border-radius: 50%;
+}
